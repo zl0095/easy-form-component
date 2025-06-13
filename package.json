@@ -1,0 +1,70 @@
+{
+  "name": "survey_questionnaire_compnent",
+  "version": "2.1.3",
+  "private": false,
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/survey_questionnaire_compnent.js",
+  "module": "./dist/survey_questionnaire_compnent.umd.cjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc",
+    "preview": "vite preview",
+    "pkg": "npm --prefix components run build",
+    "publish-pkg": "npm --prefix components run build && npm up easy-form-component"
+  },
+  "overrides": {
+    "vite": {
+      "rollup": "npm:@rollup/wasm-node"
+    }
+  },
+  "exports": {
+    "./dist/style.css": "./dist/style.css",
+    "./css": "./dist/style.css",
+    ".": {
+      "import": "./dist/survey_questionnaire_compnent.js",
+      "require": "./dist/survey_questionnaire_compnent.umd.cjs"
+    }
+  },
+  "dependencies": {
+    "easy-form-component": "^1.0.499",
+    "fast-glob": "^3.3.2",
+    "path": "^0.12.7",
+    "pinia": "^2.1.7",
+    "terser": "^5.36.0",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-dts": "^4.3.0",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue": "^3.4.29",
+    "vue-draggable-plus": "^0.5.6",
+    "vue-router": "^4.3.3",
+    "vue3-signature": "^0.2.4",
+    "zh-address-parse": "^1.3.16"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.5",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/runtime-dom": "^3.5.10",
+    "@vue/tsconfig": "^0.5.1",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "npm-run-all2": "^6.2.0",
+    "prettier": "3.3.3",
+    "sass-embedded": "^1.78.0",
+    "typescript": "~5.4.0",
+    "vite": "^5.3.1",
+    "vite-awesome-svg-loader": "^1.3.5",
+    "vue-tsc": "^2.0.21",
+    "webpack-cli": "^5.1.4"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "vue-demi"
+    ]
+  }
+}

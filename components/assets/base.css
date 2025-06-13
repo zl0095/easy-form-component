@@ -1,0 +1,141 @@
+/* color palette from <https://github.com/vuejs/theme> */
+body {
+    --easy-form-bg-light-1: #f0f0f0;
+    --easy-form-bg-light-2: #ffffff;
+    --easy-form-bg-light-3: #f7f8fa;
+    --easy-form-bg-light-4: #f8f9fa;
+    --easy-form-bg-light-5: rgba(0, 0, 0, .4);
+    --easy-form-bg-light-6: #f7f8fa;
+    --easy-form-bg-component-light-1: #ffffff;
+    --easy-form-bg-nps-light: rgba(241, 243, 246, .7);
+    --easy-form-bg-border-light-1: #e9e9e9;
+    --easy-form-bg-dark-1: #17171a;
+    --easy-form-bg-dark-3: #353637;
+    --easy-form-bg-dark-4: #464647;
+    --easy-form-bg-dark-5: rgb(115 115 115 / 40%);
+    --easy-form-bg-dark-6: rgb(115 115 115 / 100%);
+    --easy-form-bg-component-dark-1: #17171a;
+    --easy-form-bg-component-dark-2: #1d1d21;
+    --easy-form-bg-nps-dark: rgba(241, 243, 246, .1);
+    --easy-form-bg-border-dark-1: #515151;
+
+    --easy-form-color-text-component-light-1: #333333;
+    --easy-form-color-text-component-light-2: rgb(201, 205, 212);
+    --easy-form-color-text-component-light-3: #666;
+    --easy-form-color-text-component-light-4: #707070;
+    --easy-form-color-text-component-dark-1: #ffffff;
+    --easy-form-color-text-component-dark-2: rgba(255, 255, 255, .3);
+
+    --easy-form-border-color-component-light-1: #e3dfdf;
+    --easy-form-border-color-component-light-2: #1677ff;
+    --easy-form-border-color-component-light-3: #eaeaea;
+    --easy-form-boxshadow-component-light-1: 0 1px 8px 0 rgba(0, 0, 0, .2);
+    --easy-form-border-color-component-dark-1: #ffffff;
+    --easy-form-border-color-component-dark-2: #e6f4ff;
+    --easy-form-border-color-component-dark-3: #534f4f;
+    --easy-form-boxshadow-component-dark-1: 0 1px 8px 0 rgba(255, 255, 255, .2);
+
+    --easy-form-input-bg-component-light: #ffffff;
+    --easy-form-input-bg-component-light-1: #fcfcfc;
+    --easy-form-input-bg-component-light-2: rgba(241, 243, 246, .5);
+    --easy-form-input-bg-component-light-3: #f7f8fa;
+    --easy-form-input-select-bg-light: rgba(241, 243, 246, .5);
+    --easy-form-input-bg-component-dark: rgba(255, 255, 255, .08);
+    --easy-form-input-bg-component-dark-2: rgba(241, 243, 246, .1);
+    --easy-form-input-bg-component-dark-3: rgba(241, 243, 246, .1);
+    --easy-form-input-bg-component-dark-4: rgba(28, 28, 28, 1);
+    --easy-form-input-select-bg-dark: rgba(255, 255, 255, .03);
+
+    --easy-form-color-fill-light-1: rgb(242, 243, 245);
+    --easy-form-color-fill-light-2: rgb(229, 230, 235);
+    --easy-form-color-fill-dark-1: rgba(255, 255, 255, .08);
+    --easy-form-color-fill-dark-2: rgba(255, 255, 255, .12);
+}
+
+/* semantic color variables for this project */
+body {
+    --easy-form-background-component-component: var(--easy-form-bg-light-1);
+    --easy-form-background-component-1: var(--easy-form-bg-light-2);
+    --easy-form-background-component-2: var(--easy-form-bg-nps-light);
+    --easy-form-background-component-3: var(--easy-form-bg-border-light-1);
+    --easy-form-background-component-4: var(--easy-form-bg-light-3);
+    --easy-form-background-component-5: var(--easy-form-bg-light-4);
+    --easy-form-background-component-6: var(--easy-form-bg-light-5);
+    --easy-form-background-component-7: var(--easy-form-bg-light-6);
+    --easy-form-background-component-8: var(--easy-form-bg-light-6);
+    --easy-form-component-background: var(--easy-form-bg-component-light-1);
+    --easy-form-color-text-component-1: var(--easy-form-color-text-component-light-1);
+    --easy-form-color-text-component-2: #999;
+    --easy-form-color-text-component-3: #aaa;
+    --easy-form-color-text-component-4: var(--easy-form-color-text-component-light-3);
+    --easy-form-color-text-component-5: var(--easy-form-color-text-component-light-4);
+
+    --easy-form-item-padding-component: 20px;
+    --easy-form-select-padding-component: 9px 10px;
+    --easy-form-color-padding-component: 0 10px;
+    --easy-form-title-padding-component: 10px 0;
+    --easy-form-title-padding-component-1: 20px 0;
+
+    --easy-form-border-radius-component: 6px;
+    --easy-form-border-radius-component-1: 4px;
+    --easy-form-border-color-component-1: var(--easy-form-border-color-component-light-1);
+    --easy-form-border-color-component-2: var(--easy-form-border-color-component-light-2);
+    --easy-form-border-color-component-3: var(--easy-form-border-color-component-light-3);
+    --easy-form-border-radio-radius-component: 50%;
+    --easy-form-boxshadow-component-1: var(--easy-form-boxshadow-component-light-1);
+
+    --easy-form-primary-background-component: #1677ff;
+
+    --easy-form-input-bg-component: var(--easy-form-input-bg-component-light);
+    --easy-form-input-bg-component-1: var(--easy-form-input-bg-component-light-1);
+    --easy-form-input-bg-component-2: var(--easy-form-input-bg-component-light-2);
+    --easy-form-input-bg-component-3: var(--easy-form-input-bg-component-light-3);
+    --easy-form-input-bg-component-4: var(--easy-form-input-bg-component-light);
+    --easy-form-input-select-background-component: var(--easy-form-input-select-bg-light);
+
+    --easy-form-disabled-bg-component: var(--easy-form-color-fill-light-1);
+    --easy-form-disabled-border-component: var(--easy-form-color-fill-light-2);
+    --easy-form-disabled-text-color-component: var(--easy-form-color-text-component-light-2);
+}
+
+body.dark {
+    --easy-form-background-component: var(--easy-form-bg-dark-1);
+    --easy-form-background-component-1: var(--easy-form-bg-dark-1);
+    --easy-form-background-component-2: var(--easy-form-bg-nps-dark);
+    --easy-form-background-component-3: var(--easy-form-bg-border-dark-1);
+    --easy-form-background-component-4: var(--easy-form-bg-dark-3);
+    --easy-form-background-component-5: var(--easy-form-bg-dark-4);
+    --easy-form-background-component-6: var(--easy-form-bg-dark-5);
+    --easy-form-background-component-7: var(--easy-form-bg-dark-5);
+    --easy-form-background-component-8: var(--easy-form-bg-dark-6);
+    --easy-form-component-background: var(--easy-form-bg-component-dark-2);
+
+    --easy-form-color-text-component-1: var(--easy-form-color-text-component-dark-1);
+    --easy-form-color-text-component-4: var(--easy-form-color-text-component-dark-1);
+    --easy-form-color-text-component-5: var(--easy-form-color-text-component-dark-1);
+
+    --easy-form-border-color-component-1: var(--easy-form-border-color-component-dark-1);
+    --easy-form-border-color-component-2: var(--easy-form-border-color-component-dark-2);
+    --easy-form-border-color-component-3: var(--easy-form-border-color-component-dark-3);
+    --easy-form-boxshadow-component-1: var(--easy-form-boxshadow-component-dark-1);
+
+
+    --easy-form-input-bg-component: var(--easy-form-input-bg-component-dark);
+    --easy-form-input-bg-component-1: var(--easy-form-input-bg-component-dark);
+    --easy-form-input-bg-component-2: var(--easy-form-input-bg-component-dark-2);
+    --easy-form-input-bg-component-3: var(--easy-form-input-bg-component-dark-3);
+    --easy-form-input-bg-component-4: var(--easy-form-input-bg-component-dark-4);
+    --easy-form-input-select-background-component: var(--easy-form-input-select-bg-dark);
+
+    --easy-form-disabled-bg-component: var(--easy-form-color-fill-dark-1);
+    --easy-form-disabled-border-component: var(--easy-form-color-fill-dark-2);
+    --easy-form-disabled-text-color-component: var(--easy-form-color-text-component-dark-2);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}

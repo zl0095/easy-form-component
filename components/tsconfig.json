@@ -1,0 +1,27 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "files": ["types.d.ts", "env.d.ts"],
+  "include": ["package/**/*", "package/**/*.vue"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "module":"ES6",
+    "target":"ES6",
+    "declaration": true,
+    "declarationDir": "dist",
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "noEmit": false,
+    "moduleResolution": "node",
+    "verbatimModuleSyntax": false,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
+
+
